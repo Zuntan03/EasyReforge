@@ -18,6 +18,7 @@ class ReforgeUiConfig:
             "0.1.6": self.update_0_1_6,
             "0.1.7": self.update_0_1_7,
             "0.1.8": self.update_0_1_8,
+            "0.1.9": self.update_0_1_9,
         }
 
         if not os.path.exists(cfg_path):
@@ -160,6 +161,14 @@ class ReforgeUiConfig:
         cfg["customscript/tipo.py/txt2img/Ban tags/value"] = (
             "background, greyscale, monochrome, hair, eyes, multiple view, censor, pubic"
         )
+
+    def update_0_1_9(self, cfg):
+        cfg["easy_reforge_ui-config_version"] = "0.2.0"
+
+        cfg["txt2img/Width/maximum"] = 4096
+        cfg["txt2img/Height/maximum"] = 4096
+        cfg["img2img/Width/maximum"] = 4096
+        cfg["img2img/Height/maximum"] = 4096
 
 
 if __name__ == "__main__":

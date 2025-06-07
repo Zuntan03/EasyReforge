@@ -8,12 +8,16 @@ pushd %~dp0
 
 echo.
 echo https://huggingface.co/yyy1026/songMix
-echo call %HUGGING_FACE_HUB% %~n0\ yyy1026/songMix model LECO/**
-call %HUGGING_FACE_HUB% %~n0\ yyy1026/songMix model LECO/**
+echo call %HUGGING_FACE_HUB% %~n0\ yyy1026/songMix model *_LECO/**
+call %HUGGING_FACE_HUB% %~n0\ yyy1026/songMix model *_LECO/**
 if %ERRORLEVEL% neq 0 ( popd & exit /b 1 )
 
-echo call %JUNCTION% %~dp0..\..\..\Model\Lora\Noob_songMixLeco .\%~n0\LECO
-call %JUNCTION% %~dp0..\..\..\Model\Lora\Noob_songMixLeco .\%~n0\LECO
+echo call %JUNCTION% %~dp0..\..\..\Model\Lora\Noob_AntiNoiseLeco .\%~n0\AntiNoise_LECO
+call %JUNCTION% %~dp0..\..\..\Model\Lora\Noob_AntiNoiseLeco .\%~n0\AntiNoise_LECO
+if %ERRORLEVEL% neq 0 ( popd & exit /b 1 )
+
+echo call %JUNCTION% %~dp0..\..\..\Model\Lora\Noob_ReshapeBodyLeco .\%~n0\ReshapedBody_LECO
+call %JUNCTION% %~dp0..\..\..\Model\Lora\Noob_ReshapeBodyLeco .\%~n0\ReshapedBody_LECO
 if %ERRORLEVEL% neq 0 ( popd & exit /b 1 )
 
 popd rem %~dp0

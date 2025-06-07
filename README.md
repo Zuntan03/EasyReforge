@@ -108,6 +108,36 @@ E-Pred に戻すときも同様です。
 
 - **更新で編集したスタイルが巻き戻った場合は、`stable-diffusion-webui-reForge\sytles.csv` の横にある日付付きバックアップファイルからコピペして復元してください。**
 
+### 2025/06/08
+
+- 以下の Illustrious 系モデルのダウンロードに対応しました。  
+`Download/Stable-diffusion/Illu/*.bat` でダウンロードできます。  
+`Download/All/Stable-diffusion_Illu.bat` でまとめてダウンロードできます。
+	- [`botan_v20.bat`](https://huggingface.co/KKTT8823/botan_illustrious)
+	- [`copycatIllu_v60.bat`](https://huggingface.co/calculater/copycat-illustrious)
+	- [`dupliCatFlat_v10.bat`](https://huggingface.co/calculater/dupli-cat_flat)
+	- [`illustrious_v20.bat`](https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0)
+	- [`Quillworks_v15.bat`](https://huggingface.co/Shakker-Labs/Illustrious-Quillworks-V15)
+	- [`songMix_v33.bat`](https://huggingface.co/yyy1026/songMix)
+	- [`TanemoMix_v40.bat`](https://civitai.com/models/1297977?modelVersionId=1754256)
+	- [`WaiNsfw_v14.bat`](https://civitai.com/models/827184?modelVersionId=1761560)
+- 以下の NoobE 系モデルのダウンロードに対応しました。  
+	- [`Download\Stable-diffusion\NoobE\LuminarQMixE_v70.bat`](https://civitai.com/models/1616309?modelVersionId=1829221)
+	- [`Download\Stable-diffusion\NoobE_Real\Featureless25DMix_v20.bat`](https://civitai.com/models/1133674?modelVersionId=1795934)
+- 以下の NoobV 系モデルのダウンロードに対応しました。  
+`Download/Stable-diffusion/NoobV/*.bat` でダウンロードできます。
+	- [`CottonNoob_v40.bat`](https://civitai.com/models/1259226?modelVersionId=1830361)
+	- [`LuminarQMixV_v70.bat`](https://civitai.com/models/1616309?modelVersionId=1829237)
+- 以下の RouWeiE 系モデルのダウンロードに対応しました。  
+`Download/Stable-diffusion/RowWeiE/*.bat` でダウンロードできます。
+	- [`CalicoCatTower_v20.bat`](https://civitai.com/models/1294336?modelVersionId=1860525)
+	- [`RouWeiE_v08.bat`](https://civitai.com/models/950531?modelVersionId=1832460)
+- ADetailer モデルの [Anime NSFW Detection](https://civitai.com/models/1313556?modelVersionId=1863248) のダウンロードに対応しました。
+	- `Download\adetailer\segm\AnimeNsfw_v40.bat`
+- [`ReshapeBodyLeco`](https://huggingface.co/yyy1026/songMix/blob/main/ReshapedBody_LECO/ReadMe.txt) と [`AntiNoiseLeco`](https://huggingface.co/yyy1026/songMix/blob/main/AntiNoise_LECO/ReadMe.txt) のダウンロードに対応しました。
+	- `Download\Lora\Noob_Bundle\songMixLeco.bat`
+- 生成画像の最大サイズを `2048px` から `4096px` に増やしました。
+
 ### 2025/05/14
 
 - モデルに `Download\Stable-diffusion\NoobE\plumMix_v10.bat` を追加しました。
