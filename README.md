@@ -118,9 +118,10 @@ E-Pred に戻すときも同様です。
 	- [`dupliCatFlat_v10.bat`](https://huggingface.co/calculater/dupli-cat_flat)
 	- [`illustrious_v20.bat`](https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0)
 	- [`Quillworks_v15.bat`](https://huggingface.co/Shakker-Labs/Illustrious-Quillworks-V15)
-	- [`songMix_v33.bat`](https://huggingface.co/yyy1026/songMix)
+	- [`songMix_v34.bat`](https://huggingface.co/yyy1026/songMix)
 	- [`TanemoMix_v40.bat`](https://civitai.com/models/1297977?modelVersionId=1754256)
 	- [`WaiNsfw_v14.bat`](https://civitai.com/models/827184?modelVersionId=1761560)
+	- [`OneObsession_v13.bat`](https://civitai.com/models/1318945?modelVersionId=1840942)
 - 以下の NoobE 系モデルのダウンロードに対応しました。  
 	- [`Download\Stable-diffusion\NoobE\LuminarQMixE_v70.bat`](https://civitai.com/models/1616309?modelVersionId=1829221)
 	- [`Download\Stable-diffusion\NoobE_Real\Featureless25DMix_v20.bat`](https://civitai.com/models/1133674?modelVersionId=1795934)
