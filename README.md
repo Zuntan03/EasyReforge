@@ -110,6 +110,7 @@ E-Pred に戻すときも同様です。
 
 ### 2025/06/09
 
+- ADetailer 用モデルの `Download\adetailer\segm\99coins_anime_girl_face_m_seg.bat` を追加しました。
 - `sageattention` のために `torch` のバージョンを `2.7.0` から `2.7.1` に上げました。
 
 ### 2025/06/08
