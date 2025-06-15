@@ -111,6 +111,7 @@ E-Pred に戻すときも同様です。
 ### 2025/06/15
 
 - モデルや LoRA のダウンロード bat の追加や更新をしました。
+	- `Download\Stable-diffusion\Illu\botan_v30.bat`
 	- `Download\Stable-diffusion\Illu\copycatIllu_v70.bat`
 	- `Download\Stable-diffusion\Illu\OneObsession_v14.bat`
 	- `Download\Stable-diffusion\NoobE\LuminarQMixE_v71.bat`
