@@ -18,7 +18,7 @@ call %~dp0..\adetailer\segm\PitHandDetailer-v1b-seg.bat
 call %~dp0..\All\ESRGAN.bat
 
 call %~dp0..\ControlNet\Sdxl\Inpaint_Kataragi.bat
-call %~dp0..\ControlNet\Pony\AnyTest_PonyDim256_v40.bat
+call %~dp0..\ControlNet\Sdxl\AnyTest_Dim64_v10.bat
 call %~dp0..\ControlNet\NoobE\NoobE_Tile.bat
 call %~dp0..\ControlNet\NoobE\NoobE_Inpaint.bat
 

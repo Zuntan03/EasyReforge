@@ -1,1 +1,1 @@
-Module: None, Model: AnyTest_PonyDim256_v40 [2fe07d89], Weight: 1, Resize Mode: Crop and Resize, Processor Res: 512, Threshold A: 0.5, Threshold B: 0.5, Guidance Start: 0, Guidance End: 0.3, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both
+Module: None, Model: AnyTest_Dim64_v10 [79f8b465], Weight: 1, Resize Mode: Crop and Resize, Processor Res: 512, Threshold A: 0.5, Threshold B: 0.5, Guidance Start: 0, Guidance End: 0.3, Pixel Perfect: False, Control Mode: Balanced, Hr Option: Both

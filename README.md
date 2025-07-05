@@ -33,6 +33,7 @@
 |![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/Sample/CheatSheet/Txt2ImgInpaint.webp)|![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/Sample/CheatSheet/Reforge_01_Tipo.webp)|
 |![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/Sample/CheatSheet/TipoWildcard.webp)|![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/Sample/CheatSheet/TipoWildcardMulti.webp)|
 |![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/Sample/CheatSheet/FramePlanner.webp)|![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/Sample/CheatSheet/NoobInpaint.webp)|
+|![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/log/2507/anytest.webp)||
 
 ### 基本操作
 
@@ -107,6 +108,21 @@ E-Pred に戻すときも同様です。
 ## 最近の更新内容
 
 - **更新で編集したスタイルが巻き戻った場合は、`stable-diffusion-webui-reForge\sytles.csv` の横にある日付付きバックアップファイルからコピペして復元してください。**
+
+### 2025/07/06
+
+- ControlNet の AnyTest プリセットで `Sdxl/AnyTest_Dim64_v10` を使用するように変更しました。
+	- EasyReforge の高速生成環境では LLLite ControlNet の AnyTest と相性が良いようで、Animagine や Pony に依存していない旧バージョンで打率が高く見えています。
+		- [`anytest?_illustrious2`](https://huggingface.co/2vXpSwA7/iroiro-lora/commit/bb4a39142275ac975ae4e6a64d1df218f672e0f0) の LLLite 版がリリースされれば、そちらのほうが打率が高くなる可能性があります。
+- スタイルのプリセットに `Illu HyDmd[4]: LCM, Beta` を追加しました。
+	- **編集したスタイルが Update.bat で巻き戻ります。**  
+	**スタイルを編集していた場合は `stable-diffusion-webui-reForge\sytles.csv` の横にある日付付きバックアップファイルからコピペして復元してください。**
+- 以下のモデルを追加しました。
+	- `Download\ControlNet\Sdxl\AnyTest_Dim64_v10.bat`
+	- `Download\Stable-diffusion\NoobE\SmoothMixNoob_v30.bat`
+	- `Download\Stable-diffusion\Illu\SmoothMixIlluNoob_v30.bat`
+
+![](https://raw.githubusercontent.com/wiki/Zuntan03/EasyReforge/log/2507/anytest.webp)
 
 ### 2025/06/15
 

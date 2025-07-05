@@ -1,5 +1,8 @@
 ﻿name,prompt,negative_prompt
 "👤Char 📋","__noob_1girl__ #__Booru1girl__, __NsfwPony/char__",
+"Illu HyDmd[4]: LCM, Beta 📋↙️","<lora:NoobV065sHyperDmd:1> very awa, masterpiece, best quality, newest, highres, absurdres, general, safe, # explicit,
+Negative prompt: bad anatomy, worst quality, low quality
+Steps: 4, CFG scale: 1, Denoising strength: 0.6, Hires CFG Scale: 0, Hires upscale: 1.5, Hires steps: 0, Hires upscaler: Latent (nearest-exact), Sampler: LCM, Schedule type: Beta",
 "NoobE HyDmd[4]: LCM, SGM Uniform 📋↙️","<lora:NoobV065sHyperDmd:1> very awa, masterpiece, best quality, newest, highres, absurdres, general, safe, # explicit,
 Negative prompt: bad anatomy, worst quality, low quality
 Steps: 4, CFG scale: 1, Denoising strength: 0.6, Hires CFG Scale: 0, Hires upscale: 1.5, Hires steps: 0, Hires upscaler: Latent (nearest-exact), Sampler: LCM, Schedule type: SGM Uniform",
