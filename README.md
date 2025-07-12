@@ -109,6 +109,10 @@ E-Pred に戻すときも同様です。
 
 - **更新で編集したスタイルが巻き戻った場合は、`stable-diffusion-webui-reForge\sytles.csv` の横にある日付付きバックアップファイルからコピペして復元してください。**
 
+### 2025/07/12
+
+- `Download\Lora\Illu_Char\Takopī_no_Genzai.bat` を追加しました。
+
 ### 2025/07/06
 
 - ControlNet の AnyTest プリセットで `Sdxl/AnyTest_Dim64_v10` を使用するように変更しました。
