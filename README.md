@@ -109,6 +109,10 @@ E-Pred に戻すときも同様です。
 
 - **更新で編集したスタイルが巻き戻った場合は、`stable-diffusion-webui-reForge\sytles.csv` の横にある日付付きバックアップファイルからコピペして復元してください。**
 
+### 2025/09/16
+
+- `Download\Stable-diffusion\Illu\WaiNsfw_v15.bat` のバージョンを更新しました。
+
 ### 2025/07/12
 
 - `Download\Lora\Illu_Char\Takopī_no_Genzai.bat` を追加しました。
